@@ -1,3 +1,5 @@
+/* ___________________Общие____________________ */
+
 html {
   box-sizing: border-box;
 }
@@ -31,6 +33,8 @@ body {
   line-height: 1.4;
 }
 
+/* ______________________header___________________ */
+
 .header {
   padding-top: 90px;
 }
@@ -41,6 +45,11 @@ body {
   padding-bottom: 30px;
 }
 
+/* ______logo____________ */
+/* ______/logo____________ */
+
+
+/* ___Загаловок по центру____ */
 .header__title {
   font-family: "Playfair Display", serif;
   font-weight: 400;
@@ -48,6 +57,9 @@ body {
   margin-left: auto;
 }
 
+/* ____/Загаловок по центру___ */
+
+/* ___________Меню____________ */
 .menu {
   margin-left: 130px;
   margin-right: 185px;
@@ -59,16 +71,23 @@ body {
   text-transform: uppercase;
 }
 
+/* ___________/Меню___________ */
+
+/* ____Ссылки иконки справа___ */
 .user-nav {
   display: flex;
   gap: 0 20px;
 }
 
-/* _______________________ */
+/* ___/Ссылки иконки справа___ */
+
+
+/* _______________top-Слайдер____________________ */
 .top {
   margin-bottom: 100px;
 }
 
+/* ___Первый слайдер_____ */
 .top-slide {
   background-repeat: no-repeat;
   background-position: cover;
@@ -82,7 +101,10 @@ body {
   padding: 0 10px;
   min-height: 700px;
 }
+/* ___/Первый слайдер_____ */
 
+
+/*_Текст 1-го слайдера по центру_*/
 .top-slide__content {
   flex-basis: 183px;
   margin-top: -88px;
@@ -104,7 +126,10 @@ body {
 .top-slide__text {
   margin-bottom: 20px;
 }
+/*_/Текст 1-го слайдера по центру_*/
 
+
+/* _____Кнопка ссылка__________ */
 .top-slide__btn {
   color: #7449BB;
   text-transform: uppercase;
@@ -116,17 +141,20 @@ body {
   transition: all .3s ease;
 }
 
-.top-slide__btn:hover{
+.top-slide__btn:hover {
   color: #fff;
   background-color: #7449BB;
 }
+/* _____/Кнопка ссылка__________ */
 
+
+/* _____Стрелки__________ */
 .swiper-button-prev::after,
 .swiper-button-next::after {
   content: none;
 }
 
-.container-arrow{
+.container-arrow {
   position: relative;
   max-width: 1220px;
   margin-bottom: 50px;
@@ -136,4 +164,4 @@ body {
   left: 75px;
   right: auto;
 }
-/* ________________________________________ */
+/* _____/Стрелки___________ */
