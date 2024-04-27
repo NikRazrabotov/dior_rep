@@ -39,7 +39,7 @@ body {
   padding-top: 90px;
 }
 
-.header__inner {
+.header__wrapper {
   display: flex;
   justify-content: space-between;
   padding-bottom: 30px;
@@ -90,7 +90,7 @@ body {
 /* ___Первый слайдер_____ */
 .top-slide {
   background-repeat: no-repeat;
-  background-position: cover;
+  background-size: cover;
   background-position: top center;
 }
 
