@@ -145,11 +145,7 @@ body {
 
 }
 
-<<<<<<< HEAD
-.top-slide__btn:hover {
-=======
 .button:hover {
->>>>>>> about
   color: #fff;
   background-color: #7449BB;
 }
@@ -172,9 +168,6 @@ body {
   left: 75px;
   right: auto;
 }
-<<<<<<< HEAD
-/* _____/Стрелки___________ */
-=======
 
 /* ______________about_________________ */
 
@@ -238,4 +231,3 @@ body {
 .swiper-button-prev.swiper-button-disabled {
   opacity: 1;
 }
->>>>>>> about
