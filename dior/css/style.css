@@ -101,6 +101,7 @@ body {
   padding: 0 10px;
   min-height: 700px;
 }
+
 /* ___/Первый слайдер_____ */
 
 
@@ -126,6 +127,7 @@ body {
 .top-slide__text {
   margin-bottom: 20px;
 }
+
 /*_/Текст 1-го слайдера по центру_*/
 
 
@@ -149,6 +151,7 @@ body {
   color: #fff;
   background-color: #7449BB;
 }
+
 /* _____/Кнопка ссылка__________ */
 
 
@@ -169,6 +172,8 @@ body {
   right: auto;
 }
 
+/* ______________Конец секции Top_________________ */
+
 /* ______________about_________________ */
 
 .about {
@@ -180,6 +185,7 @@ body {
   padding-left: 200px;
 }
 
+/* _______Загаловок___________ */
 .about__title {
   font-weight: 400;
   font-size: 32px;
@@ -190,6 +196,8 @@ body {
   margin-bottom: 20px;
 }
 
+/* _______/Загаловок___________ */
+
 .about__textBox {
   margin-bottom: 150px;
   display: flex;
@@ -197,6 +205,8 @@ body {
   align-items: flex-end;
 }
 
+
+/* _______/Параграфы слева___________ */
 .about__text {
   flex-basis: 387px;
   line-height: 1.2;
@@ -207,6 +217,7 @@ body {
 
 }
 
+/* _______Параграфы справа___________ */
 .about__text--bold {
   font-weight: 700;
 }
@@ -215,6 +226,8 @@ body {
   margin-bottom: 20px;
 }
 
+
+/* _______Слайдер___________ */
 .about__slider {
   width: 1800px;
   padding-left: 200px;
@@ -231,3 +244,5 @@ body {
 .swiper-button-prev.swiper-button-disabled {
   opacity: 1;
 }
+
+/* ______________Конец секции about_________________ */
